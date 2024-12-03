@@ -37,3 +37,15 @@ body {
     margin:  auto; /* Centraliza o container na página */
     
   }
+  body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Define a altura da página */
+    background-color: #5e1e1e; /* Cor de fundo */
+}
+
+.container {
+    text-align: center;
+}
