@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #c4c4c4;
+    text-align: center;
+    padding: 20px;
+  }
+
+  header {
+    background: linear-gradient(to right, #ffffff, #410d0d); /* Define o gradiente */
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* Transforma a imagem em um círculo */
+    overflow: hidden; /* Esconde qualquer parte da imagem que ultrapasse o círculo */
+    margin-bottom: 10px; /* Adiciona um espaço abaixo da imagem */
+    text-align: center; /* Centraliza o conteúdo dentro do container */
+    margin:  auto; /* Centraliza o container na página */
+    
+  }
